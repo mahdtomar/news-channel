@@ -1,11 +1,8 @@
-@charset "UTF-8";
 .admin {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  background-image: linear-gradient(45deg, #ae0000, #b6b600);
 }
 
 .admin form {
@@ -25,7 +22,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid black;
 }
 
 .admin form button {
@@ -47,21 +43,33 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin: 20px 0px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 1.2em;
 }
 
-.admin form label.textarea {
-  width: 5 ص00px;
+.admin form label select {
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 8px;
+  border-radius: 100px;
+}
+
+.admin form label input {
+  padding: 8px;
+  font-weight: bold;
 }
 
 .admin form input,
 .admin form textarea {
   max-width: 300px;
+  margin-left: 10px;
 }
 
 .admin form textarea {

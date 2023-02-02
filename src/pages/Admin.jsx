@@ -4,7 +4,7 @@ const Admin = () => {
   return (
     <div className="admin">
       <form>
-        <label htmlFor="title">
+        <label className="title" htmlFor="title">
           title:
           <input type="text" name="title" />
         </label>
@@ -19,7 +19,6 @@ const Admin = () => {
           }}
           name="image"
         />
-
         <label htmlFor="category">
           category:
           <select name="category" id="category">
