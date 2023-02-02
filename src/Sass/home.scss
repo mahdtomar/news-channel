@@ -1,0 +1,23 @@
+header {
+  position: relative;
+  background-image: url("../imgs/breakingNews.jpg");
+  background-size: cover;
+  background-repeat:no-repeat ;
+  height: 80vh;
+  display: flex;
+  align-items: flex-end;
+  img {
+    max-width: 100%;
+  }
+  .bannerinfo {
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    width: 80%;
+    .title{
+        font-size: 2em;
+    }
+  }
+}
