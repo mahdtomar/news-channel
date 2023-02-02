@@ -18,7 +18,8 @@ const Home = () => {
       </header>
       <div className="news-list">
         {/* news */}
-        <News/>
+        <News />
+        {/* <img src={require('../imgs/1.jpg')} alt="" /> */}
       </div>
     </>
   );

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.admin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin form {
+  width: 500px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 16px;
+  padding: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+}
+
+.admin form button {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 100px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.admin form label {
+  max-width: 200px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.admin form label.textarea {
+  width: 5 ص00px;
+}
+
+.admin form input,
+.admin form textarea {
+  max-width: 300px;
+}
+
+.admin form textarea {
+  max-height: 150px;
+}
+/*# sourceMappingURL=Admin.css.map */
