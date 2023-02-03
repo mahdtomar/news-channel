@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -8,6 +8,8 @@
 } */
 .App {
   text-align: center;
+}
+.container {
   margin: auto;
   max-width: 1440px;
   width: 100%;

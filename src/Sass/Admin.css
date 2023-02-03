@@ -1,20 +1,10 @@
-.admin {
+form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: linear-gradient(45deg, #ae0000, #b6b600);
-}
-
-.admin form {
-  width: 500px;
-  font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: auto;
-  margin-top: 40px;
-  border-radius: 16px;
-  padding: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -24,55 +14,28 @@
           align-items: center;
 }
 
-.admin form button {
-  cursor: pointer;
-  font-weight: bold;
-  padding: 8px 16px;
-  border-radius: 100px;
+form input,
+form textarea {
+  width: 300px;
+  margin: 16px 0px;
+  font-size: 1.2em;
+  padding: 8px;
+  background-color: #eee;
+  border: none;
+  border-radius: 8px;
+}
+
+form select {
+  margin: 16px 0px;
+}
+
+form button {
+  padding: 16px 32px;
+  border-radius: 200px;
   border: none;
   background-color: black;
   color: white;
-}
-
-.admin form label {
-  max-width: 200px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 20px 0px;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
   font-size: 1.2em;
-}
-
-.admin form label select {
-  margin-left: 10px;
-  background-color: black;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-size: 1.2em;
-  padding: 8px;
-  border-radius: 100px;
-}
-
-.admin form label input {
-  padding: 8px;
   font-weight: bold;
-}
-
-.admin form input,
-.admin form textarea {
-  max-width: 300px;
-  margin-left: 10px;
-}
-
-.admin form textarea {
-  max-height: 150px;
 }
 /*# sourceMappingURL=Admin.css.map */

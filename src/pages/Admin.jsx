@@ -3,31 +3,26 @@ import "../Sass/Admin.css";
 const Admin = () => {
   return (
     <div className="admin">
-      <form>
+      <form action="{{ route('create') }}" enctype="multipart/form-data" method="POST">
         <label className="title" htmlFor="title">
-          title:
-          <input type="text" name="title" />
+          <input type="text" name="title" placeholder="Title" />
         </label>
         <label className="textarea" htmlFor="content">
-          content:
-          <textarea name="content" rows={10} />
+          <textarea name="content" rows={10} placeholder="Content" />
         </label>
-        <input
-          type="file"
-          onChange={(e) => {
-            console.log(e);
-          }}
-          name="image"
-        />
+        <input type="file" name="image" />
         <label htmlFor="category">
           category:
-          <select name="category" id="category">
-            <option>Tech</option>
-            <option>Sport</option>
-            <option>Politics</option>
+          <select name="category" id="category" defaultValue={"category"}>
+            <option value={"tech"}>Tech</option>
+            <option value={"sport"}>Sport</option>
+            <option value={"politics"}>Politics</option>
           </select>
+          <div className="category-list"></div>
         </label>
-        <button type="submit">Submit</button>
+        <button type="submit" name="submit">
+          Submit
+        </button>
       </form>
     </div>
   );

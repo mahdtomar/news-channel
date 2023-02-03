@@ -1,4 +1,8 @@
 nav {
+  background-color: black;
+}
+
+nav .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,15 +13,14 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   color: white;
-  background-color: black;
 }
 
-nav .logo {
+nav .container .logo {
   font-size: 2em;
   padding: 8px;
 }
 
-nav ul {
+nav .container ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,7 +29,7 @@ nav ul {
           align-items: center;
 }
 
-nav ul a {
+nav .container ul a {
   padding: 16px;
   margin-inline: 8px;
   text-decoration: none;
@@ -39,7 +42,7 @@ nav ul a {
       align-self: center;
 }
 
-nav ul a:hover {
+nav .container ul a:hover {
   background-color: white;
   color: black;
 }
